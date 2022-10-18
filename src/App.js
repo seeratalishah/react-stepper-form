@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1> Steps </h1>
+      <h1> Steper Form Project</h1>
       { activeStep===1? <StepOne setActiveStep={setActiveStep} /> : null }
       { activeStep===2? <StepTwo setActiveStep={setActiveStep}  /> : null }
       { activeStep===3? <StepThree setActiveStep={setActiveStep} /> : null }
